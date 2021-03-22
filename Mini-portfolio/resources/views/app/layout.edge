@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Replace me</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.14.0/css/all.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <script src="js/FadeInPage.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+</head>
+
+<body>
+  <svg id="fader"></svg>
+  <script>
+    fadeInPage();
+  </script>
+  @include('app/navbar')
+  @!section('content')
+
+</body>
+
+<footer class="has-background-grey-darker" style="padding-top: 20px; padding-bottom: 20px">
+  <div class="columns is-centered">
+    <div class="column is-1"></div>
+    <div class="column">
+      <p class="is-size-5 has-text-weight-medium has-text-white">Mini portfolio</p>
+    </div>
+  </div>
+  <div class="columns is-centered">
+    <div class="column is-1"></div>
+    <div class="column">
+      <span class="icon">
+        <i class="fab fa-instagram is-size-4"></i>
+      </span>
+      <span class="icon">
+        <i class="fab fa-facebook-f is-size-4"></i>
+      </span>
+      <span class="icon">
+        <i class="fab fa-twitter is-size-4"></i>
+      </span>
+      <span class="icon">
+        <i class="fab fa-tiktok is-size-4"></i>
+      </span>
+    </div>
+  </div>
+</footer>
+
+
+</html>
